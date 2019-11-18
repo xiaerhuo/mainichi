@@ -8,8 +8,8 @@ module.exports = {
     'standard'
   ],
   globals: {
-    Component: "writable"
-
+    Component: "writable",
+    Page: "writable"
   },
   parserOptions: {
     ecmaVersion: 2018

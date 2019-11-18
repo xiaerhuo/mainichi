@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/button/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTitleText": "Mainichi",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#f8f8f8"
+  },
+  "usingComponents": {
+  },
+  "sitemapLocation": "sitemap.json"
+}

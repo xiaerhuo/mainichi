@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "mainichi-button": "../../dist/button/index"
+  }
+}

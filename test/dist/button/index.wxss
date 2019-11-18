@@ -1,0 +1,14 @@
+@import '../common/index.wxss';.mainichi-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+}
+.mainichi-btn::after {
+  border: none;
+}
+.mainichi-btn__txt {
+  color: aquamarine;
+}

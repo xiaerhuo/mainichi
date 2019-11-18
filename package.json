@@ -3,9 +3,10 @@
   "version": "1.0.0-beta.3",
   "description": "小程序UI组件库",
   "main": "index.js",
+  "miniprogram": "dist",
   "scripts": {
-    "dev": "node config/webpack.config.dev.js",
-    "lint": "eslint ./components --ext .js && stylelint \"components/**/*.less\" --fix",
+    "dev": "node config/dev.js",
+    "lint": "eslint ./src/components --ext .js && stylelint \"./src/components/**/*.less\" --fix",
     "build": "yarn && npx gulp -f config/compiler.js buildDist",
     "release": "sh config/release.sh"
   },
@@ -28,11 +29,11 @@
     }
   },
   "lint-staged": {
-    "*.{js}": [
+    "src/components/**/*.{js}": [
       "eslint",
       "git add"
     ],
-    "*.{css,less}": [
+    "src/components/**/*.{css,less}": [
       "stylelint",
       "git add"
     ]

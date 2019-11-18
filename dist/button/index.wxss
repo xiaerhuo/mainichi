@@ -1,0 +1,8 @@
+@import '../common/index.wxss';.mainichi-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainichi-btn__txt {
+  color: aquamarine;
+}
