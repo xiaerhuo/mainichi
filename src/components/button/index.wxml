@@ -1,0 +1,8 @@
+<button
+  bindtap="bindtap"
+  class="tutu-btn {{className}}"
+>
+  <view class="tutu-btn__txt">
+    <slot />
+  </view>
+</button>
